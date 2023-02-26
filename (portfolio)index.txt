@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="user">
+                <img src="/user.png" class="userimg">
+                <p class="vi">PortFolio</p>
+
+                    <div class="link">
+                        <nav>
+                            <a href="/index.html" class="links">HOME</a>
+                            <a href="/education.html" class="links">EDUCATION</a>
+                            <a href="/skill.html" class="links">SKILL'S</a> 
+                            <a href="/about.html" class="links">ABOUT</a>
+                        </nav> 
+                    </div>  
+            </div>
+        </div>
+
+
+<div class="sub_container">    
+    <div class="info">
+        <h1 class="helo">Hello!</h1>
+        <pre class="intro">I'm Vishal Burud,
+Computer Engineering Student.
+Specializing in <b>'Web Development
+& Design'</b></pre>
+    </div>
+    
+    <div class="bg">
+        <img src="/mee3.jpg" height="" class="img">
+    </div>
+</div>
+
+
+<div class="contact">
+    <span class="con">Contacts</span>
+    <nav class="media">
+    <a href="https://in.linkedin.com/in/vishal-burud?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_main"><img src="/linkdin.png" class="rits"></a>
+   <a href="https://www.instagram.com/vishalburud.81/" target="_main"><img src="/insta.png" class="rits"></a>
+   <a href="https://wa.me/917218655640?" target="_main"><img src="/wp.png" class="rits"></a>
+   <a href="mailto:burudvishal07@gmail.com"><img src="/mail.png" class="rits"></a>
+   <a href="tel:+91 7218655640"><img src="/call.png" class="rits"></a>
+   </nav>
+</div>
+
+    </div>
+</body>
+</html>

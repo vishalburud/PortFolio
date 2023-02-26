@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Righteous&family=Roboto:wght@300&family=Rowdies:wght@300;400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    border: 0ch;
+    /* background-image: url("/dkte3.jpg"); */
+    
+  
+}
+
+.user{
+  display: flex;
+}
+
+
+p{
+  color: rgb(5, 135, 221);
+  margin-left: 0%;
+  font-family: 'Rowdies', cursive;
+}
+
+.main{
+    background-color: black;
+    /* display: flex; */
+    /* padding: 15px; */
+}
+
+h1{
+  font-size:40px;
+  /* text-align: center; */
+  font-family: 'Righteous', cursive;
+  color: rgb(5, 135, 221);
+}
+
+.bold{
+  font-size: 22px;
+}
+
+.intro{
+  /* text-align: center; */
+  color: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+
+.info{
+  margin-left: 80px;
+  margin-top: 90px;
+
+}
+
+ul{
+    padding: 10px;
+}
+
+nav{
+  padding: 15px;
+  text-align: end;
+}
+
+
+.links{
+  color:white;
+  text-decoration: none;
+  /* background-color: white; */
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: 'Rowdies', cursive;
+  /* text-align: end; */
+  
+}
+
+.links:hover{
+  color: black;
+  background-color: aliceblue;
+}
+
+/* .bg {
+    background-image: url("/mee.jpg");
+    background-color:white;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
+
+
+  .img{
+    display: block;
+    /* display: flex; */
+    margin-left: 20%;
+    /* margin-right: auto; */
+    width: 48%;
+    margin-top: 5%;
+  }
+
+
+.sub_container{
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap; */
+  
+  /* flex-direction: column; */
+}
+
+/* .sub_container::after{
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+  .container{
+    flex-direction: column;
+
+  }
+
+.contact{
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: whitesmoke;
+}
+
+.con{
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Rowdies', cursive;
+
+}
+
+.media{
+  text-align: center;
+  /* padding: 20px; */
+  letter-spacing: 5px;
+  /* font-size: 10px; */
+}
+
+a:hover{
+  padding: 2px;
+}
+
+
+/* Education */
+
+.dkte{
+    width: 100%;
+    height: 600px;
+    
+}
+
+
+
+.head{
+  font-family: 'Righteous', cursive;
+  text-align: center;
+}
+
+.head1{
+  text-align: center;
+}
+
+.skl{
+  color: rgb(34, 33, 33);
+  text-align: center;
+  font-size: larger;
+}
+
+.plang{
+  color: rgb(5, 4, 4);
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.prolang{
+  background-color:rgb(243, 242, 241);
+  padding: 10px;
+}
+
+.clg ,.mr ,.head{
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.clg1{
+  color: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+}
+
+.clg2{
+  margin-left: 13px;
+}
+
+.logo{
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 20px; */
+  /* padding: 10px; */
+}
+
+
+.myself_p{
+  padding-left: 20px;
+  color: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+}
+
+.exe{
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.c{
+  display: flex;
+  
+}
+
+h5{
+  font-size:medium;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 10px;
+}
+
+
+.pro{
+  color:white;
+  text-decoration: none;
+  background-color:  rgb(5, 135, 221);
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: 'Rowdies', cursive;
+  /* text-align: end; */
+  
+}
+
+.pro:hover{
+  /* color: black; */
+  background-color: white;
+  color: black;
+}
+
+.projects{
+  display: flex;
+  /* margin: 20px; */
+}
+
+
+@media only screen and (max-width:870px){
+  .intro{
+    font-size: larger;
+  }
+  .sub_container{
+    flex-direction: column;
+  }
+  .helo{
+    font-size: 40px;
+  }
+  .main{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width:620px){
+  .links{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width:530px){
+  .links{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width:480px){
+  .links,.con{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width:480px){
+  .vi{
+    font-size: 15px;
+  }
+  .userimg{
+    width: 10%;
+  }
+  .links{
+    margin: 2px;
+  }
+  .nav{
+    padding: 2px;
+  }
+}
+
+@media only screen and (max-width:408px){
+  .links{
+    margin: 1px;
+  }
+  .intro{
+    font-size: larger;
+  }
+  .helo{
+    font-size: 30px;
+  }
+  .info{
+    margin-left:20px;
+  }
+  /* .rits{
+    width: 10%;
+  } */
+}
+
+@media only screen and (max-width:530px){
+  .e{
+    font-size: 30px;
+  }
+  .bold{
+    font-size: 18px;
+  }
+  .clg1{
+    font-size: 14px;
+  }
+  .clg ,.mr ,.head{
+    padding: 1px;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width:390px){
+  .bold{
+    font-size: 16px;
+  }
+  .clg1{
+    font-size: 14px;
+  }
+  .clg ,.mr ,.head{
+    padding: 1px;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width:476px){
+  .skl{
+    font-size: 15px;
+  }
+  .plang{
+    font-size: 18px;
+  }
+  .myself_p{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width:376px){
+ .links{
+  font-size: 7px;
+ }
+ .clg1{
+  font-size: 13px;
+}
+.myself_p{
+  font-size: 15px;
+}
+}
